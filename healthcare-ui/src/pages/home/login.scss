@@ -1,0 +1,47 @@
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    .login-card {
+      width: 400px;
+      padding: 20px;
+  
+      .login-field-container {
+        display: grid;
+        gap: 20px;
+      }
+  
+      .login-field {
+        .p-inputgroup {
+          width: 100%;
+  
+          .p-inputgroup-addon {
+            background-color: #f4f4f4;
+            border: none;
+          }
+  
+          .p-inputtext,
+          .p-password {
+            width: 100%;
+          }
+        }
+      }
+  
+      .button-field {
+        display: flex;
+        justify-content: flex-end;
+      }
+  
+      p {
+        margin-top: 20px;
+        text-align: center;
+      }
+  
+      .clear {
+        clear: both;
+      }
+    }
+  }
+  
